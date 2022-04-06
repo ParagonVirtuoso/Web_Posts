@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>WebPosts - Cadastro</title>
+      <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/styleCad.css">
+
+  
+</head>
+
+<body>
+
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <form id="msform">
+            
+            <ul id="progressbar">
+                <li class="active">Dados Pessoais</li>
+                <li>Perfis Sociais</li>
+                <li>Conta</li>
+            </ul>
+            
+            <fieldset>
+                <h2 class="fs-title">Dados Pessoais</h2>
+                <h3 class="fs-subtitle">Conte-nos algo mais sobre você</h3>
+                <input type="text" name="fname" placeholder="Nome Da Equipe"/>
+                <input type="text" name="lname" placeholder="Nome Do Lider"/>
+                <input type="text" name="phone" placeholder="Telefone"/>
+                <input type="button" name="next" class="next action-button" value="Próximo"/>
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">Perfis Sociais</h2>
+                <h3 class="fs-subtitle">Perfis Sociais Da Equipe</h3>
+                <input type="text" name="twitter" placeholder="Twitter"/>
+                <input type="text" name="facebook" placeholder="Facebook"/>
+                <input type="text" name="gplus" placeholder="Google Plus"/>
+                <input type="button" name="previous" class="previous action-button-previous" value="Voltar"/>
+                <input type="button" name="next" class="next action-button" value="Próximo"/>
+            </fieldset>
+            <fieldset>
+                <h2 class="fs-title">Crie sua conta</h2>
+                <h3 class="fs-subtitle">Preencha suas credenciais</h3>
+                <input type="text" name="email" placeholder="Email"/>
+                <input type="password" name="pass" placeholder="Senha"/>
+                <input type="password" name="cpass" placeholder="Confirme a Senha"/>
+                <input type="codelib" name="cpass" placeholder="Código de liberação"/>
+                <input type="button" name="previous" class="previous action-button-previous" value="Voltar"/>
+                <input type="submit" name="submit" class="submit action-button" value="Enviar" onclick="location.href='index.html';"/>
+            </fieldset>
+        </form>
+    </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+
+  
+
+    <script  src="js/cad.js"></script>
+
+
+
+
+</body>
+
+</html>
